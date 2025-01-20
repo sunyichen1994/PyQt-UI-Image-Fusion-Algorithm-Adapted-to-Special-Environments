@@ -1,0 +1,74 @@
+/* 主窗口背景 */
+QMainWindow {
+    background-color: #FFFBE6;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+/* 标签页背景 */
+QTabWidget::pane {
+    border: 1px solid #E7FBE6;
+    background-color: #ffffff;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+/* 标签页头部 */
+QTabWidget::tab-bar {
+    left: 5px; /* 移动标签页的位置 */
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+/* 标签页按钮 */
+QTabBar::tab {
+    background: #C5FFF8;
+    border: 1px solid #c4c4c4;
+    padding: 5px;
+    min-width: 120px;
+    min-height: 30px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #64CCC5;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 16px; /* 保持字体大小一致 */
+}
+
+/* 按钮 */
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+/* 标签 */
+QLabel {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+/* 状态标签 */
+QLabel#status_label {
+    font-size: 18px;
+    color: #ff0000;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
